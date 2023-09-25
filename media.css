@@ -118,6 +118,34 @@ img{
     margin-left: 115px;
   }
   /* features end */
+  /* experience start */
+  .experience{
+    display: flex;
+ flex-direction: column-reverse;
+  }
+  .experience-content{
+    width: 70%;
+  }
+  .experience-img{
+    margin-bottom: 30px;
+  }
+  /* experience end */
+  /* icon start */
+  .icon{
+    display: flex;
+  margin-left: 20px;
+  }
+  /* icon end */
+  /* sponser start */
+  .sponser-con{
+    width: 52%;
+  }
+  /* sponser end */
+  /* sponser-icon start */
+  .sponser-icon img{
+    margin-left: 54px;
+  }
+  /* sponser-icon end */
  }
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) and (max-width: 1199.98px) {
@@ -145,6 +173,24 @@ img{
     margin-right: 27px;
   }
   /* features end */
+  /* experience start */
+  .experience-content h1{
+    font-size: 30px;
+  }
+  .experience-content p{
+    padding-left: 23px;
+  }
+  .service p{
+    padding-left: 0px;
+  }
+
+  /* experience end */
+  /* sponser start */
+  .sponser-con{
+    width: 37%;
+  }
+  /* sponser end */
+  
 
 }
 /* Extra large devices (large desktops, 1200px and up) */
