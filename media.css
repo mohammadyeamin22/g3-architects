@@ -73,6 +73,46 @@ img{
   margin-top: 80px;
 }
  /* features end */
+ /* experience start */
+ .experience{
+  display: flex;
+  flex-direction: column-reverse;
+ }
+ .experience-content{
+  width: 70%;
+ }
+ .experience-img img{
+  width: 576px;
+ }
+ /* experience end */
+ /* facts start */
+ .facts{
+  width: 60%;
+  margin-left: 100px;
+ }
+ /* facts end */
+ /* facts-icon start */
+ .icon{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+ }
+ /* facts-icon end */
+ /* sponser start */
+ .sponser-con{
+  width: 80%;
+ }
+ /* sponser end */
+ /* sponser-icon start */
+ .sponser-icon{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+  margin-left: 50px;
+ }
+ /* sponser-icon end */
 
 
   
