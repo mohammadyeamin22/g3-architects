@@ -6,29 +6,95 @@
 }
 .brand-heading{
   font-size: 30px;
-  padding-left: 145px;
+  padding-left: 98px;
 }
 .brand-heading-2{
-  font: size 16px;
-  padding-left: 120px
+  font-size: 23px;
+  padding-left: 68px
 }
 .brand p{
   font-size: 20px;
-  width: 135%;
+  width: 100%;
 }
 .brand a{
-  margin-left: 150px;
+  margin-left: 85px;
 }
 
 /* header end */
 /* img start */
 img{
-  width: 450px;
+  width: 320px;
   height: 350px;
-  padding-left: 93px;
 }
 /* img end */
+/* featurs start */
+.wrapper{
+  display: flex;
+  flex-direction: column;
+}
+.container-img{
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  margin-left: 0px;
+  margin-right: 0px;
+  
+}
+.container-img img{
+  width: 320px;
+}
+.container{
+  width: 127%;
+}
+/* featurs end */
+/* experience start */
+.experience{
+  display: flex;
+  flex-direction: column-reverse;
+}
+.experience-img img{
+  width: 320px;
+  height: 900px;
+}
+.btn{
+  margin-left: 0px;
+}
+.experience-content{
+  width: 80%;
+  margin-top: 100px;
+}
+.experience-content h1{
+  font-size: 30px;
+}
+/* experience end */
+/* facts start */
+.facts{
+  width: 100%;
+  margin-left: 0px;
+}
+/* facts end */
+/* icon start */
+.icon{
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 25px;
+}
+/* icon end */
+/* sponser start */
+.sponser-con{
+  width: 100%;
+}
+/* sponser end */
+/* sponser-icon start */
+.sponser-icon{
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 30px;
 
+}
+.sponser-icon img{
+  padding-left: 100px;
+}
+/* sponser-icon end */
 }
 
 /* Small devices (landscape phones, 576px and up) */
@@ -186,6 +252,11 @@ img{
     margin-left: 54px;
   }
   /* sponser-icon end */
+  /* facts start */
+  .facts{
+    width: 50%;
+  }
+  /* facts end */
  }
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) and (max-width: 1199.98px) {
@@ -230,7 +301,6 @@ img{
     width: 37%;
   }
   /* sponser end */
-  
 
 }
 /* Extra large devices (large desktops, 1200px and up) */
@@ -241,6 +311,7 @@ img{
     margin-right: 48px;
   }
   /* features end */
+ 
 }
 /* Extra Extra large devices (large desktops, 1400px and up) */
 @media (min-width: 1400px) { 
