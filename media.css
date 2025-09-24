@@ -19,7 +19,6 @@
 .brand a{
   margin-left: 85px;
 }
-
 /* header end */
 /* img start */
 img{
@@ -89,14 +88,12 @@ img{
   display: grid;
   grid-template-columns: repeat(1, 1fr);
   gap: 30px;
-
 }
 .sponser-icon img{
   padding-left: 100px;
 }
 /* sponser-icon end */
 }
-
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767.98px) {
 /* header start */
@@ -114,7 +111,6 @@ img{
 .brand a{
   margin-left: 200px;
 }
-
 /* header end */
 /* img start */
 img{
@@ -178,10 +174,7 @@ img{
   gap: 30px;
   margin-left: 50px;
  }
- /* sponser-icon end */
-
-
-  
+ /* sponser-icon end */ 
 }
  /* Medium devices (tablets, 768px and up) */
  @media (min-width: 768px) and (max-width: 991.98px) {
@@ -199,7 +192,6 @@ img{
   .brand a{
     margin-left: 265px;
   }
-  
   /* header end */
   /* img start */
   img{
@@ -269,8 +261,7 @@ img{
   }
   .brand-heading-2{
     font-size: 40px;
-  }
-  
+  }  
   /* header end */
   /* img start */
   img{
@@ -294,14 +285,12 @@ img{
   .service p{
     padding-left: 0px;
   }
-
   /* experience end */
   /* sponser start */
   .sponser-con{
     width: 37%;
   }
   /* sponser end */
-
 }
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) and (max-width:1399.98px){
@@ -311,7 +300,6 @@ img{
     margin-right: 48px;
   }
   /* features end */
- 
 }
 /* Extra Extra large devices (large desktops, 1400px and up) */
 @media (min-width: 1400px) { 
