@@ -1,25 +1,23 @@
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
-  /* header start */
+  /* Brand start */
 .brand{
-  width: 100%;
+  width:775px;
 }
 .brand-heading{
-  font-size: 30px;
-  padding-left: 98px;
-}
+  padding-left:190px;
+} 
 .brand-heading-2{
-  font-size: 23px;
-  padding-left: 68px
+  padding-left:98px
 }
 .brand p{
   font-size: 20px;
   width: 100%;
 }
 .brand a{
-  margin-left: 85px;
+  margin-left:235px;
 }
-/* header end */
+/* Brand end */
 /* img start */
 img{
   width: 320px;
@@ -29,20 +27,21 @@ img{
 /* featurs start */
 .wrapper{
   display: flex;
-  flex-direction: column;
+  flex-direction:column;
+  width:575px;
 }
 .container-img{
   display: grid;
   grid-template-columns: repeat(1, 1fr);
-  margin-left: 0px;
+  margin-left:125px;
   margin-right: 0px;
-  
 }
 .container-img img{
   width: 320px;
 }
 .container{
-  width: 127%;
+  width:100%;
+text-align:center;
 }
 /* featurs end */
 /* experience start */
@@ -80,36 +79,39 @@ img{
 /* icon end */
 /* sponser start */
 .sponser-con{
-  width: 100%;
+  width:575px;
 }
 /* sponser end */
 /* sponser-icon start */
 .sponser-icon{
   display: grid;
-  grid-template-columns: repeat(1, 1fr);
-  gap: 30px;
+  grid-template-columns: repeat(2, 1fr);
+  gap:30px;
 }
 .sponser-icon img{
-  padding-left: 100px;
+padding-left:40px;
 }
 /* sponser-icon end */
+/* Footer media css */
+.footer{
+  width:100%;
+}
 }
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767.98px) {
 /* header start */
 .brand{
-  width: 100%;
-  margin-left: 40px;
+  width:767px;
+  margin-left:40px;
 }
 .brand-heading{
-  padding-left: 185px;
+  padding-left:245px;
 }
 .brand-heading-2{
-  font-size: 40px;
-  padding-left: 120px
+  padding-left:140px
 }
 .brand a{
-  margin-left: 200px;
+margin-left:270px;
 }
 /* header end */
 /* img start */
@@ -131,8 +133,9 @@ img{
   width: 282px;
 }
 .container{
-  width: 100%;
-  margin-top: 80px;
+  width:100%;
+  margin-top:80px;
+ text-align:center;
 }
  /* features end */
  /* experience start */
@@ -175,22 +178,25 @@ img{
   margin-left: 50px;
  }
  /* sponser-icon end */ 
+ /* footer media css */
+ .footer{
+  width:100%;
+ }
 }
  /* Medium devices (tablets, 768px and up) */
  @media (min-width: 768px) and (max-width: 991.98px) {
   /* header start */
   .brand{
-    width: 80%;
+  width:991px;
   }
   .brand-heading{
-    padding-left: 225px;
+    padding-left:400px;
   }
   .brand-heading-2{
-    font-size: 40px;
-    padding-left: 168px
+    padding-left:298px
   }
   .brand a{
-    margin-left: 265px;
+    margin-left:400px;
   }
   /* header end */
   /* img start */
@@ -202,7 +208,7 @@ img{
   /* features start */
   .wrapper{
     display:flex ;
-    flex-direction: column;
+    flex-direction:column;
   }
   .container-img{
     margin-left: 79px;
@@ -231,7 +237,7 @@ img{
   /* icon start */
   .icon{
     display: flex;
-  margin-left: 20px;
+  /* margin-left: 20px; */
   }
   /* icon end */
   /* sponser start */
@@ -240,16 +246,18 @@ img{
   }
   /* sponser end */
   /* sponser-icon start */
+  .sponser-icon{
+    width:100%;
+  }
   .sponser-icon img{
-    margin-left: 54px;
+    /* margin-left: 54px; */
   }
   /* sponser-icon end */
-  /* facts start */
-  .facts{
-    width: 50%;
+  /* Footer media css */
+  .footer{
+   text-align:center;
   }
-  /* facts end */
- }
+}
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) and (max-width: 1199.98px) {
   /* header start */

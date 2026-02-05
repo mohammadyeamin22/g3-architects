@@ -5,12 +5,12 @@
 }
 /* brand css-start */
 .brand-wrapper{
-  display: flex;
-  justify-content: center;
-  margin-bottom: 50px;
+  display:flex;
+  justify-content:center;
+  margin-bottom:50px;
 }
 .brand{
-  width: 45%;
+  width:45%;
 }
 .brand-heading-2{
   padding-left: 95px;
@@ -68,13 +68,10 @@ img{
   gap: 10px;
   margin-left: 180px;
   margin-right: 80px;
-  
 }
-
 .container-img img{
   width: 342px;
   height: 342px;
-
 }
 .container{
   width: 50%;
@@ -239,7 +236,7 @@ font-weight: 600;
   
 }
 .sponser-con{
-  width: 30%;
+  width:30%;
   text-align: center;
 }
 .sponser-con h1{
